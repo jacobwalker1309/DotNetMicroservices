@@ -1,0 +1,4 @@
+namespace Catalog.API.Controllers
+{
+    
+}

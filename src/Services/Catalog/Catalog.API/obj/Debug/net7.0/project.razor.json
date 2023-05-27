@@ -1,0 +1,20 @@
+{
+  "SerializedFilePath": "c:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Catalog\\Catalog.API\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "Catalog.API",
+  "Documents": [],
+  "SerializationFormat": "0.3"
+}
