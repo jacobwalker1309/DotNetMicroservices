@@ -1,0 +1,5 @@
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.csproj.AssemblyReference.cache
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.AssemblyInfoInputs.cache
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.AssemblyInfo.cs
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.csproj.CoreCompileInputs.cache
