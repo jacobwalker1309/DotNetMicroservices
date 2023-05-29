@@ -96,59 +96,119 @@ namespace Discount.Grpc.Protos {
       get { return global::Discount.Grpc.Protos.DiscountReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of DiscountProtoService</summary>
-    [grpc::BindServiceMethod(typeof(DiscountProtoService), "BindService")]
-    public abstract partial class DiscountProtoServiceBase
+    /// <summary>Client for DiscountProtoService</summary>
+    public partial class DiscountProtoServiceClient : grpc::ClientBase<DiscountProtoServiceClient>
     {
+      /// <summary>Creates a new client for DiscountProtoService</summary>
+      /// <param name="channel">The channel to use to make remote calls.</param>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Discount.Grpc.Protos.CouponModel> GetDiscount(global::Discount.Grpc.Protos.GetDiscountRequest request, grpc::ServerCallContext context)
+      public DiscountProtoServiceClient(grpc::ChannelBase channel) : base(channel)
       {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+      /// <summary>Creates a new client for DiscountProtoService that uses a custom <c>CallInvoker</c>.</summary>
+      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public DiscountProtoServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+      {
+      }
+      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected DiscountProtoServiceClient() : base()
+      {
+      }
+      /// <summary>Protected constructor to allow creation of configured clients.</summary>
+      /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected DiscountProtoServiceClient(ClientBaseConfiguration configuration) : base(configuration)
+      {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Discount.Grpc.Protos.CouponModel> CreateDiscount(global::Discount.Grpc.Protos.CreateDiscountRequest request, grpc::ServerCallContext context)
+      public virtual global::Discount.Grpc.Protos.CouponModel GetDiscount(global::Discount.Grpc.Protos.GetDiscountRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+        return GetDiscount(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Discount.Grpc.Protos.CouponModel> UpdateDiscount(global::Discount.Grpc.Protos.UpdateDiscountRequest request, grpc::ServerCallContext context)
+      public virtual global::Discount.Grpc.Protos.CouponModel GetDiscount(global::Discount.Grpc.Protos.GetDiscountRequest request, grpc::CallOptions options)
       {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+        return CallInvoker.BlockingUnaryCall(__Method_GetDiscount, null, options, request);
       }
-
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Discount.Grpc.Protos.DeleteDiscountResponse> DeleteDiscount(global::Discount.Grpc.Protos.DeleteDiscountRequest request, grpc::ServerCallContext context)
+      public virtual grpc::AsyncUnaryCall<global::Discount.Grpc.Protos.CouponModel> GetDiscountAsync(global::Discount.Grpc.Protos.GetDiscountRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+        return GetDiscountAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
-
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(DiscountProtoServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_GetDiscount, serviceImpl.GetDiscount)
-          .AddMethod(__Method_CreateDiscount, serviceImpl.CreateDiscount)
-          .AddMethod(__Method_UpdateDiscount, serviceImpl.UpdateDiscount)
-          .AddMethod(__Method_DeleteDiscount, serviceImpl.DeleteDiscount).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, DiscountProtoServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_GetDiscount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Discount.Grpc.Protos.GetDiscountRequest, global::Discount.Grpc.Protos.CouponModel>(serviceImpl.GetDiscount));
-      serviceBinder.AddMethod(__Method_CreateDiscount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Discount.Grpc.Protos.CreateDiscountRequest, global::Discount.Grpc.Protos.CouponModel>(serviceImpl.CreateDiscount));
-      serviceBinder.AddMethod(__Method_UpdateDiscount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Discount.Grpc.Protos.UpdateDiscountRequest, global::Discount.Grpc.Protos.CouponModel>(serviceImpl.UpdateDiscount));
-      serviceBinder.AddMethod(__Method_DeleteDiscount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Discount.Grpc.Protos.DeleteDiscountRequest, global::Discount.Grpc.Protos.DeleteDiscountResponse>(serviceImpl.DeleteDiscount));
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Discount.Grpc.Protos.CouponModel> GetDiscountAsync(global::Discount.Grpc.Protos.GetDiscountRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetDiscount, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Discount.Grpc.Protos.CouponModel CreateDiscount(global::Discount.Grpc.Protos.CreateDiscountRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateDiscount(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Discount.Grpc.Protos.CouponModel CreateDiscount(global::Discount.Grpc.Protos.CreateDiscountRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreateDiscount, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Discount.Grpc.Protos.CouponModel> CreateDiscountAsync(global::Discount.Grpc.Protos.CreateDiscountRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateDiscountAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Discount.Grpc.Protos.CouponModel> CreateDiscountAsync(global::Discount.Grpc.Protos.CreateDiscountRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreateDiscount, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Discount.Grpc.Protos.CouponModel UpdateDiscount(global::Discount.Grpc.Protos.UpdateDiscountRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateDiscount(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Discount.Grpc.Protos.CouponModel UpdateDiscount(global::Discount.Grpc.Protos.UpdateDiscountRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateDiscount, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Discount.Grpc.Protos.CouponModel> UpdateDiscountAsync(global::Discount.Grpc.Protos.UpdateDiscountRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateDiscountAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Discount.Grpc.Protos.CouponModel> UpdateDiscountAsync(global::Discount.Grpc.Protos.UpdateDiscountRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateDiscount, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Discount.Grpc.Protos.DeleteDiscountResponse DeleteDiscount(global::Discount.Grpc.Protos.DeleteDiscountRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteDiscount(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Discount.Grpc.Protos.DeleteDiscountResponse DeleteDiscount(global::Discount.Grpc.Protos.DeleteDiscountRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteDiscount, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Discount.Grpc.Protos.DeleteDiscountResponse> DeleteDiscountAsync(global::Discount.Grpc.Protos.DeleteDiscountRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteDiscountAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Discount.Grpc.Protos.DeleteDiscountResponse> DeleteDiscountAsync(global::Discount.Grpc.Protos.DeleteDiscountRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteDiscount, null, options, request);
+      }
+      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected override DiscountProtoServiceClient NewInstance(ClientBaseConfiguration configuration)
+      {
+        return new DiscountProtoServiceClient(configuration);
+      }
     }
 
   }
