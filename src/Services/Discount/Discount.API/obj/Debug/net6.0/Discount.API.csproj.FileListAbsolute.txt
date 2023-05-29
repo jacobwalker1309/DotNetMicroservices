@@ -1,10 +1,3 @@
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.csproj.AssemblyReference.cache
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.AssemblyInfoInputs.cache
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.AssemblyInfo.cs
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.csproj.CoreCompileInputs.cache
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\bin\Debug\net6.0\appsettings.json
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\bin\Debug\net6.0\Discount.API.exe
@@ -18,6 +11,13 @@ C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\s
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.csproj.AssemblyReference.cache
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.AssemblyInfoInputs.cache
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.AssemblyInfo.cs
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.csproj.CoreCompileInputs.cache
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\Discount.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.API\obj\Debug\net6.0\scopedcss\bundle\Discount.API.styles.css

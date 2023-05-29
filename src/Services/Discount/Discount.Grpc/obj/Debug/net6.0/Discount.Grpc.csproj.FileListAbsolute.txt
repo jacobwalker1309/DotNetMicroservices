@@ -5,6 +5,8 @@ C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\s
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\Discount.Grpc.runtimeconfig.json
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\Discount.Grpc.dll
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\Discount.Grpc.pdb
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\Dapper.dll
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\Google.Protobuf.dll
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
@@ -29,5 +31,3 @@ C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\s
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\obj\Debug\net6.0\Discount.Grpc.pdb
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\obj\Debug\net6.0\Discount.Grpc.genruntimeconfig.cache
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\obj\Debug\net6.0\ref\Discount.Grpc.dll
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Discount\Discount.Grpc\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
