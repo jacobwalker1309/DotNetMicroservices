@@ -1008,18 +1008,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+      "projectUniqueName": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
       "projectName": "Discount.Grpc",
-      "projectPath": "c:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+      "projectPath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
       "packagesPath": "C:\\Users\\jwalker1\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Discount\\Discount.Grpc\\obj\\",
+      "outputPath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Discount\\Discount.Grpc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "c:\\NuGet.Config",
+        "C:\\NuGet.Config",
         "C:\\Users\\jwalker1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
