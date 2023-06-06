@@ -77,3 +77,16 @@ C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\s
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.pdb
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.genruntimeconfig.cache
 C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\ref\Ordering.API.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\EventBus.Messages.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\EventBus.Messages.pdb

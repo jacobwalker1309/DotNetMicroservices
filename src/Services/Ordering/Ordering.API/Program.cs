@@ -1,3 +1,6 @@
+using EventBus.Messages.Common;
+using MassTransit;
+using Ordering.API.EventBusConsumer;
 using Ordering.API.Extensions;
 using Ordering.Application;
 using Ordering.Infrastructure;
@@ -13,8 +16,19 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddScoped<BasketCheckoutConsumer>();
 
-//builder.Services.MigrateDatabase<Program>();
+builder.Services.AddMassTransit(config => {
+    config.AddConsumer<BasketCheckoutConsumer>();
+    config.UsingRabbitMq((ctx, cfg) => {
+        cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
+        cfg.ReceiveEndpoint(EventBusConstants.BasketCheckoutQueue, c =>
+        {
+            c.ConfigureConsumer<BasketCheckoutConsumer>(ctx);
+        });
+    });
+});
 
 var app = builder.Build();
 
@@ -22,15 +36,6 @@ app.Services.MigrateDatabase<OrderContext>((context, service) =>
 {
     var logger = app.Services.GetService<ILogger<OrderContextSeed>>();
     OrderContextSeed.SeedAsync(context, logger).Wait();
-
-    /*
-     * SqlException: Cannot insert the value NULL into column 'CVV', table 'OrderDb.dbo.Orders'; column does not allow nulls. INSERT fails.
-    The statement has been terminated.
-     * 
-     * 
-     * 
-     * 
-     */
 });
 
 // Configure the HTTP request pipeline.
