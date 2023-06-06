@@ -14,10 +14,10 @@ using Ordering.Application.Features.Orders.Commands.UpdateOrder;
 using Ordering.Application.Features.Orders.Queries.GetOrdersList;
 
 namespace Ordering.API.Controllers
-{   
+{
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class OrderController : Controller
+    public class OrderController : ControllerBase
     {
         private readonly ILogger<OrderController> _logger;
         private readonly IMediator _mediator;
@@ -28,7 +28,7 @@ namespace Ordering.API.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet("{username}", Name = "GetOrder")]
+        [HttpGet("{userName}", Name = "GetOrder")]
         [ProducesResponseType(typeof(IEnumerable<OrdersVm>), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<IEnumerable<OrdersVm>>> GetOrdersByUserName(string userName)
         {

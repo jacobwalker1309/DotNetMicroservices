@@ -1,7 +1,7 @@
 using Basket.API.GrpcService;
 using Basket.API.Repositories;
 using Discount.Grpc.Protos;
-using Microsoft.Extensions.DependencyInjection;
+using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +23,17 @@ builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
     (o => o.Address = new Uri(builder.Configuration["GrpcSettings:DiscountUrl"]));
 
 builder.Services.AddScoped<DiscountGrpcService>();
+
+builder.Services.AddMassTransit(config =>
+{
+    config.UsingRabbitMq((ctx, cfg) =>
+    {
+        cfg.Host("amqp://guest:guest@localhost:5672");
+    });
+});
+
+builder.Services.AddAutoMapper(typeof(Program));
+
 
 var app = builder.Build();
 

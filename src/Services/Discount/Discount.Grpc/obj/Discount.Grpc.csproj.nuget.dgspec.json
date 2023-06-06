@@ -63,7 +63,7 @@
             },
             "Grpc.AspNetCore": {
               "target": "Package",
-              "version": "[2.40.0, )"
+              "version": "[2.35.0, )"
             },
             "Npgsql": {
               "target": "Package",

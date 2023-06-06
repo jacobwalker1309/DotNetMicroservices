@@ -11,8 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddGrpc();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
+builder.WebHost.UseKestrel(options =>
+{
+    options.ListenLocalhost(5003, o => o.Protocols = Microsoft.AspNetCore.Server.Kestrel.Core.HttpProtocols.Http2);
+});
 
 var app = builder.Build();
+
 
 app.Services.MigrateDatabase<Program>();
 

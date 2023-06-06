@@ -1,0 +1,12 @@
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.deps.json
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.pdb
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.AssemblyReference.cache
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfoInputs.cache
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfo.cs
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.CoreCompileInputs.cache
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\refint\EventBus.Messages.dll
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.pdb
+C:\Users\jwalker1\Projects\DotNetArchitecture-master\DotNetArchitecture-master\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\ref\EventBus.Messages.dll
