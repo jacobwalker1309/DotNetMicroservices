@@ -33,16 +33,18 @@ namespace Ordering.Infrastructure.Mail
                 Name = _emailSettings.FromName
             };
 
-            var sendGridMessage = MailHelper.CreateSingleEmail(from, to, subject, emailBody, emailBody);
-            var response = await client.SendEmailAsync(sendGridMessage);
+            //var sendGridMessage = MailHelper.CreateSingleEmail(from, to, subject, emailBody, emailBody);
+            //var response = await client.SendEmailAsync(sendGridMessage);
 
-            _logger.LogInformation("Email sent.");
+            //_logger.LogInformation("Email sent.");
 
-            if (response.StatusCode == System.Net.HttpStatusCode.Accepted || response.StatusCode == System.Net.HttpStatusCode.OK)
-                return true;
+            //if (response.StatusCode == System.Net.HttpStatusCode.Accepted || response.StatusCode == System.Net.HttpStatusCode.OK)
+            //    return true;
 
-            _logger.LogError("Email sending failed.");
-            return false;
+            //_logger.LogError("Email sending failed.");
+            //return false;
+
+            return true;
         }
     }
 }
