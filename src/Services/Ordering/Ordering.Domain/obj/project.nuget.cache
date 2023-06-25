@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cN/FPA0z6xNsp//42HTGsKDwJjPv+B+9ZYSKw4v+CUiliiy6s+DP3WGFm7nRZUW6EU82jj6vM2u1y+O67kwmGA==",
+  "dgSpecHash": "vn9JmkBqw6Ribsum9j+9wy9HArKC2zvubc9fssoDpugcaynmjJdGHMFE10S6ShCJIOdjNvzPMMs8LhwEoPXbAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
   "expectedPackageFiles": [],

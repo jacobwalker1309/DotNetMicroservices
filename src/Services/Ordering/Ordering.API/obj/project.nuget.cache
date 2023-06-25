@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pEpmfMGEU+bSDvNwMgfFxK27bqDXJ8e9KdLIspCMFXPbavpBVmkpjy9KCS0AlYqZgy1KEG9sye+Z5rOWrFFIqw==",
+  "dgSpecHash": "pXWEMWw3JCy14UQnKW6RVelR1iPpYQ5AE9nwf89Z/p5+zyH4SELXvP83jUpmMEh8x6kDE1bqLkjzjyfAhFFN3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Zu3+P4H2f3yZXox34tXbLZiI+gJrGTYlmUu+INzaZ9FuXFGhltYjtMtuZJXXgUwpS90CWQl668imCtWUlPZZdw==",
+  "dgSpecHash": "g7siMbzri4g1UDKz6hfxI/vlKz64LYix2gCqvM7h3CdRg0/P+lWH1jce13mOvHB4yM8kL1abGB1Mv590qjdEDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Discount\\Discount.API\\Discount.API.csproj",
   "expectedPackageFiles": [

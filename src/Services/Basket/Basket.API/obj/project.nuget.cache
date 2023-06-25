@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yNwdiz9wyT5ridlqbfxz9NrVX+kRZ6k9q9xxjS2bCU30e60ARBUIsFAAWRtICcGo10zkmHFYF1WEABY7SW8MjA==",
+  "dgSpecHash": "nfFMzOHKMPzuaDCANff2RAgezUmZT2OGop1D46LNQUz2D9dQMz7D24wvJBBEMjj1150oEikfJ5ih/NQ5St4h3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [

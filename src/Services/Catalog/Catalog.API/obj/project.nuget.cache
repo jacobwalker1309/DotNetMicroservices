@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kMdXmWTvvpD7rEgaFzZmermoB8mPs3KTVdhTu24HaEi79Br8oGbbPpVoajgZmySx+fmfv855wHWmzeLKdscIcg==",
+  "dgSpecHash": "AScphGUZMDTLFAX3Wumh7bxvX0ZG/e5ekHCH7zeyAKdYuLJ1drqlyPfwvf8g9VZQQxOjsdL4Aq1OYIxt3HxLkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X1pPlM3t+OvbDWvCSoNrLlDiiNRdFw/7SCTDzqgXVJUGWkuEQMaRc2+bIhcMdmo6TN7YmMm9XunTclDCYBPyIw==",
+  "dgSpecHash": "IfIZIpkkzs8A/8pWV6Q3MLCOY9n1QGsFedGlGPSjDEpDFu0kl7Jyht/G5bd5g9GzsneNNKj987Lex3n56okD6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
   "expectedPackageFiles": [

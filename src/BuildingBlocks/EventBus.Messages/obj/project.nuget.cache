@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "adQF4bbKBpqhLvyehiksiYQ+DcfJJxYg/5o8PIZNBt/g7qEF/9ganiB8mMgbfJEVjV60iidERiDhjVrq3ez3VQ==",
+  "dgSpecHash": "mpPQh/DneoeGhrHUPDQqm5YHNwiU6Vfk45r8CHkBrHF1/G5USVikrZABdyJKpPu+fw4c6KYGEq29Fok5rJGs6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\jwalker1\\Projects\\DotNetArchitecture-master\\DotNetArchitecture-master\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
   "expectedPackageFiles": [
